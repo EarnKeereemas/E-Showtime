@@ -1,0 +1,25 @@
+	public class MyBooking {
+			 private String name;
+			    private String surName;
+
+			    public MyBooking(String name, String surName) {
+			        this.name = name;
+			        this.surName = surName;
+			    }
+
+			    public String getName() {
+			        return name;
+			    }
+
+			    public String getSurname() {
+			        return surName;
+			    }
+
+			    public void printDetails() {
+			        System.out.println("Name: " + name);
+			        System.out.println("Surname: "+surName);
+			        
+
+	}
+
+}
